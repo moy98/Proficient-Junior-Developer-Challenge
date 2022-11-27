@@ -1,4 +1,9 @@
 import logo from '../assets/img/houseLogo.svg';
+import whatsApp from '../assets/img/whatsApp_logo.svg';
+import twitter from '../assets/img/twitter_logo.svg';
+import facebook from '../assets/img/facebook_logo.svg';
+import instagram from '../assets/img/instagram_logo.svg';
+import circle from '../assets/img/circle.svg'
 
 import React from 'react'
 
@@ -23,6 +28,17 @@ const ComponentFooter = () => {
               <li><a className='' href=''>Faq</a></li>
             </ul>    
           </div>  
+
+          <div>
+            <a href=''><img src={twitter}/></a>
+          </div>
+          <div>
+            <a href=''><img src={facebook}/></a>
+          </div>
+          <div>
+            <a href=''><img src={instagram}/></a>
+          </div>
+
         </section>   
         
         <section>
@@ -38,6 +54,7 @@ const ComponentFooter = () => {
               <li><a className='' href=''>Free Quote</a></li>
             </ul>    
           </div>  
+
         </section> 
 
         <section>
@@ -51,6 +68,9 @@ const ComponentFooter = () => {
               <li className=''>Email: info@challenge.com</li>
             </ul>    
           </div>  
+          <div>
+           <a href=''> <img src={whatsApp}/></a>
+          </div>
         </section> 
       </footer>
     </div>
