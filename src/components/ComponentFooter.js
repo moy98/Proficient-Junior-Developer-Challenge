@@ -9,7 +9,7 @@ import React from 'react'
 
 const ComponentFooter = () => {
   return (
-    <div>
+    <div className='Foot'>
       <footer className='App-footer'>
         <section className='Footer-section'>
           <img src={logo} className="Footer-logo" alt="logo" />

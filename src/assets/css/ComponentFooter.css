@@ -1,12 +1,14 @@
+.Foot {
+    background: var(--main);
+} 
 .App-footer {
     display: flex;
-
     max-width: 71.56rem;
     align-items: flex-start;
     justify-content: space-between;
     min-height: 37.375rem;
     margin: auto;
-    color: #FFFFFF;
+    color: var(--textWhite);
     font-size: 1rem;
     flex-wrap: wrap;
 }
@@ -14,7 +16,6 @@
 .Footer-section {
     width: 16rem;
     margin-top: 8rem;
-
 }
 
 .Footer-section h2 {
@@ -32,12 +33,12 @@
 .Footer-icon {
     margin: 0.5rem;
     padding: 0.5rem;
-    border: 3px solid #FFFFFF;
+    border: 3px solid var(--textWhite);
     border-radius: 50%;
 }
 
 .Footer-text {
-    color: #FFFFFF;
+    color: var(--textWhite);
     display: flex;
     margin-bottom: 2rem;
 }

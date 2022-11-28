@@ -1,5 +1,5 @@
 .containerHeader {
-
+  background: var(--main);
   justify-content: center;
 }
 
@@ -27,7 +27,7 @@
 
   font-size: 1.1rem;
   margin: auto 4.05rem auto 0;
-  color: #ffffff;
+  color: var(--textWhite);
   text-decoration: none;
   padding: 1.5rem;
 
