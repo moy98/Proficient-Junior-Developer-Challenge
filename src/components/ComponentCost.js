@@ -2,7 +2,7 @@ import React from 'react'
 
 const ComponentCost = () => {
   return (
-    <div>
+    <div className='App-cost'>
       <ul>
         <li>Total Items</li>
         <li>Total M2</li>

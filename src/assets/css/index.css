@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
   align-self: center;
+  background: #fd9255;
 }
 
 code {

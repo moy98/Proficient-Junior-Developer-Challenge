@@ -3,14 +3,15 @@ import logo from '../assets/img/houseLogo.svg';
 
 const ComponentHeader = () => {
   return (
-    <div>
+    <div className='containerHeader'>
         <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <nav>
-                <a className='' href=''>how we work</a>
-                <a className='' href=''> Services</a>
-                <a className='' href=''>Free Quote</a>
-                <a className='' href=''>contact</a>
+        <img src={logo} className="Header-logo" alt="logo" />
+            <nav className='Header-nav'>
+
+                <a className='HeaderItem' href=''>How We Work</a>
+                <a className='HeaderItem' href=''> Services</a>
+                <a className='HeaderItem' href=''>Free Quote</a>
+                <a className='HeaderItem' href=''>Contact</a>
             </nav>
             
         </header>
