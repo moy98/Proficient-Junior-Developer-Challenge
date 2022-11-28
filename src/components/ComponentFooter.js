@@ -12,8 +12,14 @@ const ComponentFooter = () => {
     <div>
       <footer className='App-footer'>
         <section className='Footer-section'>
-          <img src={logo} className="App-logo-footer" alt="logo" />
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page whenters. </p>
+          <img src={logo} className="Footer-logo" alt="logo" />
+          <p className='Logo-text'>It is a long established fact that a reader will be distracted by the readable content of a page whenters. </p>
+
+          <div>
+            <a className='Footer-icon' href='https://twitter.com/'><img src={twitter} /></a>
+            <a className='Footer-icon' href='https://www.facebook.com/'><img src={facebook} /></a>
+            <a className='Footer-icon' href='https://www.instagram.com/'><img src={instagram} /></a>
+          </div>
         </section>
 
         <section className='Footer-section'>
@@ -22,18 +28,13 @@ const ComponentFooter = () => {
 
           <div>
             <ul>
-              <li><a className='' href=''>About</a></li>
-              <li><a className='' href=''>Privacy & Policy</a></li>
-              <li><a className='' href=''>Terms & Conditions</a></li>
-              <li><a className='' href=''>Faq</a></li>
+              <li><a className='Footer-text' href=''>About</a></li>
+              <li><a className='Footer-text' href=''>Privacy & Policy</a></li>
+              <li><a className='Footer-text' href=''>Terms & Conditions</a></li>
+              <li><a className='Footer-text' href=''>Faq</a></li>
             </ul>
           </div>
 
-          <div>
-            <a href=''><img src={twitter} /></a>
-            <a href=''><img src={facebook} /></a>
-            <a href=''><img src={instagram} /></a>
-          </div>
 
         </section>
 
@@ -42,11 +43,11 @@ const ComponentFooter = () => {
 
 
           <ul>
-            <li><a className='' href=''>How We Work</a></li>
-            <li><a className='' href=''>Services</a></li>
-            <li><a className='' href=''>Faq</a></li>
-            <li><a className='' href=''>Contact</a></li>
-            <li><a className='' href=''>Free Quote</a></li>
+            <li><a className='Footer-text' href=''>How We Work</a></li>
+            <li><a className='Footer-text' href=''>Services</a></li>
+            <li><a className='Footer-text' href=''>Faq</a></li>
+            <li><a className='Footer-text' href=''>Contact</a></li>
+            <li><a className='Footer-text' href=''>Free Quote</a></li>
           </ul>
 
 
@@ -57,8 +58,8 @@ const ComponentFooter = () => {
           <h2>Contact  Us</h2>
           <address>
             <p>Ricardo Margain 444 </p>
-            <a href='tel:+528112345678'> Call: +52 81 1234 5678</a>
-            <a href='mailto:info@challenge.com'>Email: info@challenge.com</a>
+            <a className='Footer-text' href='tel:+528112345678'> Call: +52 81 1234 5678</a>
+            <a className='Footer-text' href='mailto:info@challenge.com'>Email: info@challenge.com</a>
 
           </address>
 

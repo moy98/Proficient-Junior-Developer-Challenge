@@ -2,8 +2,8 @@
     display: flex;
 
     max-width: 71.56rem;
-    justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
     min-height: 37.375rem;
     margin: auto;
     color: #FFFFFF;
@@ -11,10 +11,33 @@
     flex-wrap: wrap;
 }
 
-.App-logo-footer {
+.Footer-section {
+    width: 16rem;
+    margin-top: 8rem;
+
+}
+
+.Footer-section h2 {
+    margin-bottom: 6rem;
+}
+
+.Footer-logo {
     width: 5.9rem;
 }
 
-.Footer-section {
-    width: 16rem;
+.Logo-text {
+    margin-bottom: 4rem;
+}
+
+.Footer-icon {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.Footer-text {
+    color: #FFFFFF;
+    display: flex;
+    margin-bottom: 2rem;
 }
