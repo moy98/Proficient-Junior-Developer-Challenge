@@ -1,5 +1,6 @@
 .Foot {
     background: var(--main);
+    padding: 0 1.5rem;
 } 
 .App-footer {
     display: flex;
