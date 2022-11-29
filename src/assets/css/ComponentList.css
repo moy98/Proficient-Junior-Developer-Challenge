@@ -1,10 +1,10 @@
 .App-title {
     display: flex;
     flex-direction: column;
-   align-items: center;
-   margin: 11.31rem auto 9.9rem auto;
-   padding: 0 1.5rem;
-   text-align: center;
+    align-items: center;
+    margin: 11.31rem auto 9.9rem auto;
+    padding: 0 1.5rem;
+    text-align: center;
 
 }
 
@@ -12,6 +12,7 @@
     font-size: 3rem;
     font-weight: 400;
 }
+
 .Title-text {
     font-size: 1rem;
     max-width: 28.31rem;
@@ -19,6 +20,7 @@
     color: var(--text);
     font-weight: 400;
 }
+
 .App-list {
     background: var(--white);
     display: flex;
@@ -34,6 +36,7 @@
     width: 225px;
     margin: 3rem auto;
 }
+
 .List-card {
     height: 222px;
     width: 220px;
@@ -43,8 +46,38 @@
     flex-direction: column;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
     background: var(--textWhite);
-    margin-bottom: 3rem;
+    margin-bottom: 2.5625rem;
 }
+
 .card-img {
     margin-bottom: 1.5rem;
+}
+.List-btn {
+    display: flex;
+    align-items: center;
+}
+.quantity {
+    
+    height: 46px;
+    width: 60%;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+}
+
+.Restbtn {
+    height: 50px;
+    width: 41.73px;
+    background: #E2E2E2;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 1.25rem;
+}
+
+.Addbtn {
+    height: 50px;
+    width: 41.73px;
+    background: #E2E2E2;
+    border: 1px solid #E2E2E2;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1.25rem;
 }
