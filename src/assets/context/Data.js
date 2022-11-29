@@ -59,11 +59,11 @@ export const ComponentCost = () => {
     let [dueToday, setDuetoday] = useState(0)
     return (<div className='App-SummaryCost' >
         <section className='App-btn'>
-            <button onClick={() => {
+            <button className='Reset-btn' onClick={() => {
                 document.location.reload()
 
             }}>Clear</button>
-            <button onClick={() => {
+            <button className='Calculate-btn' onClick={() => {
 
                 Tsubtotal = Tmeters * 200
                 Ttax = Tsubtotal * 0.16

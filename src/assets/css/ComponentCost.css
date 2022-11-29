@@ -1,16 +1,18 @@
 .App-SummaryCost {
-    margin-bottom:46.75rem ;
+    margin-bottom: 46.75rem;
 }
-.App-cost{
+
+.App-cost {
     display: flex;
     flex-direction: column;
     height: 20.125rem;
-    max-width: 24rem ;
+    max-width: 24rem;
     margin: auto;
     background: var(--count);
     justify-content: space-evenly;
     padding: 1rem;
 }
+
 .App-Summary {
     display: flex;
     font-size: 2rem;
@@ -33,4 +35,30 @@
     border: none;
     background-color: var(--count);
     color: black;
+}
+
+.App-btn {
+    display: flex;
+    justify-content: space-between;
+    max-width: 78.5rem;
+    margin: 0 auto;
+    
+}
+
+.Calculate-btn {
+    width: 222.21px;
+    height: 61.16px;
+    background: var(--main);
+    border-radius: 5px;
+    border: none;
+    margin: 1.5rem;
+}
+
+.Reset-btn {
+    width: 222.21px;
+    height: 61.16px;
+    background: transparent;
+    border: 2px solid var(--main);
+    border-radius: 5px;
+    margin: 1.5rem;
 }
