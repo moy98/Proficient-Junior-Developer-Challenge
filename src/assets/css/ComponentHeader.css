@@ -1,6 +1,7 @@
 .containerHeader {
   background: var(--main);
   justify-content: center;
+  padding: 0 1.5rem;
 }
 
 .App-header {
