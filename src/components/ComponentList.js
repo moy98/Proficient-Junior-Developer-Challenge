@@ -1,18 +1,17 @@
 import React from 'react'
-import ListBtn from './ListBtn'
-import beds from'../assets/img/beds.svg'
+import Dataprovider from '../assets/context/Dataprovider'
 const ComponentList = () => {
   return (
-    <div className='App-list'>
-      <section className='List-section' >
-        <div className='List-card'>
-        <img src={beds} className='card-img' />
-        <h3>Beds</h3>
-        </div>
-        <ListBtn />
+
+    <div>
+      <section className='App-title'>
+      <h2 className='Title-question'>What items to store?</h2>
+      <span className='Title-text'>Select which items you wish to store before moving to your new home. We’ll keep ’em safe!</span>
       </section>
+      <Dataprovider/>
     </div>
   )
+
 }
 
 export default ComponentList
